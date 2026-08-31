@@ -18,8 +18,9 @@ data/ 원천 데이터
 | 컬렉션 | Pinecone namespace | 적재 대상 |
 |---|---|---:|
 | 건강검진정보 | `health_checkup_info` | 30건 |
-| 질병정보 | `disease_info` | 54,330건 |
+| 질병정보 | `disease_info` | 15,349건 |
 | 복약정보 | `medication_info` | 43,330건 |
+| 영양정보 | `nutrient_info` | 252건 |
 
 `disease_info`는 JSONL 108,662행에서 ID 중복과 Base64 이미지 청크를 제외한 수치입니다.
 
